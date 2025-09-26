@@ -1,0 +1,37 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:ex="http://example.org/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+
+  <rdf:Description rdf:about="http://example.org/AliceSmith">
+    <ex:structuredName rdf:parseType="Resource">
+      <foaf:familyName>Smith</foaf:familyName>
+      <foaf:firstName>Alice</foaf:firstName>
+    </ex:structuredName>
+    <foaf:name>Alice Smith</foaf:name>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://example.org/RebeccaSmith">
+    <ex:structuredName rdf:parseType="Resource">
+      <foaf:familyName>Smith</foaf:familyName>
+      <foaf:firstName>Rebecca</foaf:firstName>
+    </ex:structuredName>
+    <foaf:name>Becky Smith</foaf:name>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://example.org/SarahJones">
+    <ex:structuredName rdf:parseType="Resource">
+      <foaf:familyName>Smith</foaf:familyName>
+      <foaf:firstName>Sarah</foaf:firstName>
+    </ex:structuredName>
+    <foaf:name>Sarah Smith</foaf:name>
+  </rdf:Description>
+  
+  <rdf:Description rdf:about="http://example.org/MattJones">
+    <ex:structuredName rdf:parseType="Resource">
+      <foaf:familyName>Smith</foaf:familyName>
+      <foaf:firstName>Matt</foaf:firstName>
+    </ex:structuredName>
+    <foaf:name>Matthew Smith</foaf:name>
+  </rdf:Description>
+</rdf:RDF>

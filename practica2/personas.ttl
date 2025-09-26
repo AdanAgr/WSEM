@@ -1,0 +1,13 @@
+@prefix schema: <http://schema.org/> .
+@prefix ex: <http://example.org/> .
+
+ex:persona1 a schema:Person ;
+  schema:name "Juan Pérez" ;
+  schema:address ex:direccion1 ;
+  schema:birthDate "1990-05-15" .
+
+ex:direccion1 a schema:PostalAddress ;
+  schema:streetAddress "Calle Falsa 123" ;
+  schema:addressLocality "Ourense" ;
+  schema:addressRegion "Ourense" ;
+  schema:postalCode "32001" .
